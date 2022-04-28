@@ -1,0 +1,64 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "java.home": "C:\\Program Files\\Amazon Corretto\\jdk11.0.6_10",
+    "java.help.firstView": "gettingStarted",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "java.semanticHighlighting.enabled": true,
+    "editor.wordWrapColumn": 110,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    
+    },
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },"files.associations": {
+        "*.css": "scss"
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "dart.checkForSdkUpdates": false,
+    "editor.fontSize": 16,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "terminal.integrated.fontSize": 14,
+    "arduino.path": "C:\\Program Files\\arduino-nightly-windows\\arduino-nightly",
+    "C_Cpp.updateChannel": "Insiders",
+    "remote.SSH.remotePlatform": {
+        "145.24.222.152": "linux"
+    }
+    
+}
