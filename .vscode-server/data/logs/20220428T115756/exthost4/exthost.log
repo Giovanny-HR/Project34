@@ -219,3 +219,9 @@
 [2022-04-28 17:14:23.611] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1792
 [2022-04-28 17:14:28.825] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1792
 [2022-04-28 17:14:35.435] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1792
+[2022-04-28 17:30:48.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-28 17:30:48.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-04-28 17:30:49.010] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-04-28 17:52:29.059] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-04-28 17:52:29.061] [exthost] [info] Lock '/home/ubuntu-1021941/.vscode-server/data/User/workspaceStorage/56b96f145db760d9a83f35b6caf5e4f2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-04-28 17:52:29.142] [exthost] [info] Extension host with pid 237054 exiting with code 0

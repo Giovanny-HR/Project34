@@ -10,3 +10,5 @@
 [2022-04-28 16:28:04.994] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-04-28 16:28:05.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-04-28 16:28:05.223] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-28 23:03:29.034] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2022-04-28 23:03:29.068] [exthost] [info] Extension host with pid 236572 exiting with code 0
