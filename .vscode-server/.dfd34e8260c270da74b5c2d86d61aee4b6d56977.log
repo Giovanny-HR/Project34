@@ -5,83 +5,13 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:41445 (IPv4)
-Extension host agent listening on 41445
+Server bound to 127.0.0.1:44605 (IPv4)
+Extension host agent listening on 44605
 
-[09:30:56] Extension host agent started.
-[09:30:57] [127.0.0.1][2ca5196f][ManagementConnection] New connection established.
-[09:30:57] [127.0.0.1][48a11638][ExtensionHostConnection] New connection established.
-[09:30:57] [127.0.0.1][48a11638][ExtensionHostConnection] <746213> Launched Extension Host Process.
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[09:31:00] Getting Manifest... ms-vscode.js-debug-companion
-[09:31:00] Installing extension: ms-vscode.js-debug-companion
-[09:31:01] Downloaded extension: ms-vscode.js-debug-companion /home/ubuntu-1021941/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
-[09:31:01] Extracted extension to /home/ubuntu-1021941/.vscode-server/extensions/.46f4c385-53bb-43be-a2ce-aa28d39c860d: ms-vscode.js-debug-companion
-[09:31:01] Renamed to /home/ubuntu-1021941/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
-[09:31:01] Extracting completed. ms-vscode.js-debug-companion
-[09:31:01] Extension installed successfully: ms-vscode.js-debug-companion
-[09:31:30] [127.0.0.1][4727750b][ManagementConnection] New connection established.
-[09:31:30] [127.0.0.1][398f4b4b][ExtensionHostConnection] New connection established.
-[09:31:30] [127.0.0.1][398f4b4b][ExtensionHostConnection] <746394> Launched Extension Host Process.
+[09:10:47] Extension host agent started.
+[09:10:48] [127.0.0.1][692c27a6][ManagementConnection] New connection established.
+[09:10:48] [127.0.0.1][92637b02][ExtensionHostConnection] New connection established.
+[09:10:48] [127.0.0.1][92637b02][ExtensionHostConnection] <1280222> Launched Extension Host Process.
 Overwriting extension /home/ubuntu-1021941/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/ms-vscode.js-debug-companion with /home/ubuntu-1021941/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
@@ -143,25 +73,10 @@ Overwriting extension /home/ubuntu-1021941/.vscode-server/bin/dfd34e8260c270da74
     'fi\n' +
     'exit 0'
 ]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/bash" and args []
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-IPC "File Watcher" crashed with exit code null and signal SIGSEGV
-[09:59:04] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
-[11:11:22] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ubuntu-1021941)
-[11:11:22] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
-[11:43:38] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ubuntu-1021941)
-[11:43:38] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
-[15:09:12] [127.0.0.1][4727750b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap.js:1:370)
-    at process.emit (node:events:390:28)
-[15:09:24] [127.0.0.1][2ca5196f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap.js:1:370)
-    at process.emit (node:events:390:28)
-[17:53:07] [127.0.0.1][398f4b4b][ExtensionHostConnection] <746394> Extension Host Process exited with code: 0, signal: null.
-[17:53:08] [127.0.0.1][48a11638][ExtensionHostConnection] <746213> Extension Host Process exited with code: 0, signal: null.
+[09:10:58] [127.0.0.1][692c27a6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:10:58] [127.0.0.1][92637b02][ExtensionHostConnection] <1280222> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[17:53:08] Last EH closed, waiting before shutting down
+[09:10:58] Last EH closed, waiting before shutting down
+[09:14:37] Detected extension installed from another source akhail.save-typing
 Last EH closed, shutting down
-[17:58:08] Last EH closed, shutting down
+[09:15:58] Last EH closed, shutting down
