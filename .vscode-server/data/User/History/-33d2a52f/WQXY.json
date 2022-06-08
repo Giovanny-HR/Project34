@@ -1,0 +1,31 @@
+{
+    "groep":{
+        "serverTest": {
+            "code": 200,
+            "message": "Test Ok"
+        },
+        "accountNotFound": {
+            "code": 404,
+            "message": "Account does not exist."
+        },
+        "incorrectPin":{
+            "code":401, //{"attemptsLeft:Integer"}
+            "message": "Incorrect Pin"
+        },
+        "blockedPas":{
+            "code": 403,
+            "message": "Pass Blocked"
+        },
+        "wrongBody":{
+            "code":400,
+            "message": "Wrong Body"
+        },
+        "success":{
+            "code": 200,
+            "message": "Success"
+        },
+        
+
+
+    }
+}

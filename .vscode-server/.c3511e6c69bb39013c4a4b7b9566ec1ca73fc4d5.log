@@ -1,0 +1,36 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:34081 (IPv4)
+Extension host agent listening on 34081
+
+[07:17:41] Extension host agent started.
+[07:17:42] [127.0.0.1][87708cb9][ManagementConnection] New connection established.
+[07:17:42] [127.0.0.1][8bbed86f][ExtensionHostConnection] New connection established.
+[07:17:42] [127.0.0.1][8bbed86f][ExtensionHostConnection] <2127626> Launched Extension Host Process.
+Overwriting extension /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/ms-vscode.js-debug-companion with /home/ubuntu-1021941/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+[08:18:09] [127.0.0.1][87708cb9][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:18:10] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[08:18:17] [127.0.0.1][87708cb9][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:18:17] [127.0.0.1][f6c4edc2][ManagementConnection] New connection established.
+[08:18:17] [127.0.0.1][3f3479a2][ExtensionHostConnection] New connection established.
+[08:18:17] [127.0.0.1][3f3479a2][ExtensionHostConnection] <2144193> Launched Extension Host Process.
+Overwriting extension /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/ms-vscode.js-debug-companion with /home/ubuntu-1021941/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+[08:18:50] [127.0.0.1][7c312641][ManagementConnection] New connection established.
+[08:18:50] [127.0.0.1][7e2cbc3c][ExtensionHostConnection] New connection established.
+[08:18:50] [127.0.0.1][7e2cbc3c][ExtensionHostConnection] <2144371> Launched Extension Host Process.
+Overwriting extension /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/ms-vscode.js-debug-companion with /home/ubuntu-1021941/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+[08:18:51] [127.0.0.1][3f3479a2][ExtensionHostConnection] <2144193> Extension Host Process exited with code: 0, signal: null.
+[08:18:51] [127.0.0.1][f6c4edc2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[IPC Library: Pty Host]  INFO Persistent process "5": Replaying 55 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 2875 chars and 1 size events
+[08:23:17] [127.0.0.1][87708cb9][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[08:23:18] [127.0.0.1][8bbed86f][ExtensionHostConnection] <2127626> Extension Host Process exited with code: 0, signal: null.
+[08:44:26] No ptyHost heartbeat after 6 seconds
+[09:06:39] No ptyHost heartbeat after 6 seconds

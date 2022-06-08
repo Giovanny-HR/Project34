@@ -1,0 +1,15 @@
+{
+    "balance":{
+        "body":{
+            "acctNo": "String",
+            "pin": "String",
+            "amount": "Integer"
+        },
+        "head":{
+            "fromCtry": "String",
+            "fromBank": "String",
+            "toCrty": "String",
+            "toBank": "String"
+        }
+    }
+}

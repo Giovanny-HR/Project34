@@ -1,0 +1,35 @@
+[2022-06-07T07:04:08.887Z] Validating found git in: git
+[2022-06-07T07:04:09.110Z] Using git 2.25.1 from git
+[2022-06-07T07:04:09.199Z] > git rev-parse --show-toplevel [41ms]
+[2022-06-07T07:04:09.266Z] > git rev-parse --git-dir --git-common-dir [29ms]
+[2022-06-07T07:04:09.293Z] Open repository: /home/ubuntu-1021941
+[2022-06-07T07:04:09.534Z] > git status -z -uall [195ms]
+[2022-06-07T07:04:09.570Z] > git symbolic-ref --short HEAD [26ms]
+[2022-06-07T07:04:09.584Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-06-07T07:04:09.610Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-06-07T07:04:09.618Z] > git remote --verbose [14ms]
+[2022-06-07T07:04:13.428Z] > git config --get commit.template [3656ms]
+[2022-06-07T07:04:13.443Z] > git fetch [4121ms]
+[2022-06-07T07:04:13.443Z] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Giovanny-HR/Project34.git/'
+[2022-06-07T07:04:13.794Z] > git show --textconv :.vscode-server/api/routes/test.js [9ms]
+[2022-06-07T07:04:13.810Z] > git ls-files --stage -- /home/ubuntu-1021941/.vscode-server/api/routes/test.js [17ms]
+[2022-06-07T07:04:14.098Z] > git check-ignore -v -z --stdin [23ms]
+[2022-06-07T07:04:14.855Z] > git ls-files --stage -- /home/ubuntu-1021941/.vscode-server/api/routes/test.js [23ms]
+[2022-06-07T07:04:14.906Z] > git show --textconv :.vscode-server/api/routes/test.js [14ms]
+[2022-06-07T07:04:16.699Z] > git status -z -uall [156ms]
+[2022-06-07T07:04:16.718Z] > git symbolic-ref --short HEAD [5ms]
+[2022-06-07T07:04:16.730Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-06-07T07:04:16.748Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-06-07T07:04:16.754Z] > git remote --verbose [7ms]
+[2022-06-07T07:04:22.100Z] > git config --get commit.template [17ms]
+[2022-06-07T07:04:27.218Z] > git status -z -uall [103ms]
+[2022-06-07T07:04:27.234Z] > git symbolic-ref --short HEAD [7ms]
+[2022-06-07T07:04:27.250Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+[2022-06-07T07:04:27.267Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-06-07T07:04:27.278Z] > git remote --verbose [11ms]
+[2022-06-07T07:04:27.362Z] > git config --get commit.template [7ms]

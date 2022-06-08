@@ -1,0 +1,12 @@
+[2022-06-02 09:10:10.725] [exthost] [info] Extension host with pid 1632862 started
+[2022-06-02 09:10:11.073] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 09:10:11.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 09:10:11.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 09:10:11.213] [exthost] [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+[2022-06-02 09:10:11.407] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 09:10:11.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 09:10:12.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 09:10:12.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 09:10:12.071] [exthost] [info] Eager extensions activated
+[2022-06-02 17:52:52.918] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-06-02 17:52:53.852] [exthost] [info] Extension host with pid 1632862 exiting with code 0

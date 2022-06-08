@@ -1,0 +1,60 @@
+[2022-05-25 09:11:32.642] [remoteagent] [info] Extension host agent started.
+[2022-05-25 09:11:33.256] [remoteagent] [info] [127.0.0.1][acb80564][ManagementConnection] New connection established.
+[2022-05-25 09:11:33.259] [remoteagent] [info] [127.0.0.1][e7333f6b][ExtensionHostConnection] New connection established.
+[2022-05-25 09:11:33.269] [remoteagent] [info] [127.0.0.1][e7333f6b][ExtensionHostConnection] <1280749> Launched Extension Host Process.
+[2022-05-25 09:12:03.750] [remoteagent] [info] [127.0.0.1][39311ef7][ManagementConnection] New connection established.
+[2022-05-25 09:12:03.756] [remoteagent] [info] [127.0.0.1][10552bfa][ExtensionHostConnection] New connection established.
+[2022-05-25 09:12:03.766] [remoteagent] [info] [127.0.0.1][10552bfa][ExtensionHostConnection] <1280929> Launched Extension Host Process.
+[2022-05-25 09:12:10.442] [remoteagent] [error] ["Error: Could not find pty on pty host","    at m._throwIfNoPty (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333)","    at m.updateTitle (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1673)","    at Object.call (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361)","    at g.onPromise (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879)","    at g.onRawMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267)","    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555","    at D.invoke (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145)","    at N.deliver (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271)","    at h.fire (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849)","    at process.p (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973)","    at process.emit (node:events:390:28)","    at emit (node:internal/child_process:917:12)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-05-25 09:12:10.446] [remoteagent] [error] ["Error: Could not find pty on pty host","    at m._throwIfNoPty (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333)","    at m.updateIcon (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1733)","    at Object.call (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361)","    at g.onPromise (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879)","    at g.onRawMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267)","    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555","    at D.invoke (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145)","    at N.deliver (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271)","    at h.fire (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849)","    at process.p (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973)","    at process.emit (node:events:390:28)","    at emit (node:internal/child_process:917:12)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-05-25 09:14:36.582] [remoteagent] [info] Getting Manifest... akhail.save-typing
+[2022-05-25 09:14:36.646] [remoteagent] [info] Installing extension: akhail.save-typing
+[2022-05-25 09:14:37.277] [remoteagent] [info] Downloaded extension: akhail.save-typing /home/ubuntu-1021941/.vscode-server/data/CachedExtensionVSIXs/akhail.save-typing-0.1.0
+[2022-05-25 09:14:37.347] [remoteagent] [info] Extracted extension to /home/ubuntu-1021941/.vscode-server/extensions/.9bc35359-a671-48d7-aa67-08efb3ae18cf: akhail.save-typing
+[2022-05-25 09:14:37.357] [remoteagent] [info] Renamed to /home/ubuntu-1021941/.vscode-server/extensions/akhail.save-typing-0.1.0
+[2022-05-25 09:14:37.363] [remoteagent] [info] Extracting completed. akhail.save-typing
+[2022-05-25 09:14:37.365] [remoteagent] [info] Extension installed successfully: akhail.save-typing
+[2022-05-25 09:47:13.124] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ubuntu-1021941)
+[2022-05-25 09:47:13.125] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-25 09:49:16.470] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ubuntu-1021941)
+[2022-05-25 09:49:16.470] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-25 09:52:49.555] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2022-05-25 10:06:30.989] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2022-05-25 11:19:11.940] [remoteagent] [info] [127.0.0.1][39311ef7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-25 11:19:11.953] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-05-25 11:46:06.870] [remoteagent] [info] [127.0.0.1][39311ef7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-25 11:46:06.874] [remoteagent] [info] [127.0.0.1][376ee2ad][ManagementConnection] New connection established.
+[2022-05-25 11:46:06.898] [remoteagent] [info] [127.0.0.1][9b391e82][ExtensionHostConnection] New connection established.
+[2022-05-25 11:46:06.926] [remoteagent] [info] [127.0.0.1][9b391e82][ExtensionHostConnection] <1291709> Launched Extension Host Process.
+[2022-05-25 11:46:08.068] [remoteagent] [info] [127.0.0.1][acb80564][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-25 11:46:08.072] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-05-25 11:46:08.709] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu-1021941)
+[2022-05-25 11:51:07.240] [remoteagent] [info] [127.0.0.1][39311ef7][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-05-25 11:51:07.322] [remoteagent] [info] [127.0.0.1][10552bfa][ExtensionHostConnection] <1280929> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 11:51:07.560] [remoteagent] [info] [127.0.0.1][e7333f6b][ExtensionHostConnection] <1280749> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 11:57:50.719] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-25 14:46:26.623] [remoteagent] [info] [127.0.0.1][acb80564][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-05-25 15:59:15.032] [remoteagent] [info] [127.0.0.1][0b505b70][ManagementConnection] New connection established.
+[2022-05-25 15:59:15.309] [remoteagent] [info] [127.0.0.1][f37accfc][ExtensionHostConnection] New connection established.
+[2022-05-25 15:59:15.395] [remoteagent] [info] [127.0.0.1][f37accfc][ExtensionHostConnection] <1316303> Launched Extension Host Process.
+[2022-05-25 15:59:16.847] [remoteagent] [info] [127.0.0.1][376ee2ad][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-25 15:59:16.865] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-05-25 15:59:35.983] [remoteagent] [info] [127.0.0.1][0b505b70][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-25 15:59:36.076] [remoteagent] [info] [127.0.0.1][f37accfc][ExtensionHostConnection] <1316303> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 15:59:48.388] [remoteagent] [info] [127.0.0.1][376ee2ad][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-25 15:59:48.389] [remoteagent] [info] [127.0.0.1][d7700ac7][ManagementConnection] New connection established.
+[2022-05-25 15:59:48.457] [remoteagent] [info] [127.0.0.1][b1af1189][ExtensionHostConnection] New connection established.
+[2022-05-25 15:59:48.466] [remoteagent] [info] [127.0.0.1][b1af1189][ExtensionHostConnection] <1316482> Launched Extension Host Process.
+[2022-05-25 15:59:55.530] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu-1021941)
+[2022-05-25 16:04:15.667] [remoteagent] [info] [127.0.0.1][9b391e82][ExtensionHostConnection] <1291709> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 16:04:48.512] [remoteagent] [info] [127.0.0.1][376ee2ad][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-05-25 16:44:33.049] [remoteagent] [info] [127.0.0.1][d7700ac7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-25 16:44:33.164] [remoteagent] [info] [127.0.0.1][b1af1189][ExtensionHostConnection] <1316482> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 16:44:33.165] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-25 16:49:33.168] [remoteagent] [info] Last EH closed, shutting down

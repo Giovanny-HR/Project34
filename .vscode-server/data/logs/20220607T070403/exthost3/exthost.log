@@ -1,0 +1,12 @@
+[2022-06-07 12:28:41.619] [exthost] [info] Extension host with pid 1970045 started
+[2022-06-07 12:28:41.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-07 12:28:41.858] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-07 12:28:41.909] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-07 12:28:41.965] [exthost] [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+[2022-06-07 12:28:42.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-07 12:28:42.269] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-07 12:28:42.618] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-07 12:28:42.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-07 12:28:42.684] [exthost] [info] Eager extensions activated
+[2022-06-07 12:28:57.071] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-07 12:28:57.090] [exthost] [info] Extension host with pid 1970045 exiting with code 0

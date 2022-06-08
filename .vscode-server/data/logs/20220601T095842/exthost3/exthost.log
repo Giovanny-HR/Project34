@@ -1,0 +1,344 @@
+[2022-06-01 10:31:24.143] [exthost] [info] Extension host with pid 1570843 started
+[2022-06-01 10:31:24.153] [exthost] [error] Error: EEXIST: file already exists, open '/home/ubuntu-1021941/.vscode-server/data/User/workspaceStorage/56b96f145db760d9a83f35b6caf5e4f2/vscode.lock'
+[2022-06-01 10:31:24.171] [exthost] [info] Lock '/home/ubuntu-1021941/.vscode-server/data/User/workspaceStorage/56b96f145db760d9a83f35b6caf5e4f2/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-06-01 10:31:24.189] [exthost] [info] Lock '/home/ubuntu-1021941/.vscode-server/data/User/workspaceStorage/56b96f145db760d9a83f35b6caf5e4f2/vscode.lock': The lock does not look stale, elapsed: 118 ms, giving up.
+[2022-06-01 10:31:24.196] [exthost] [info] Lock '/home/ubuntu-1021941/.vscode-server/data/User/workspaceStorage/56b96f145db760d9a83f35b6caf5e4f2-1/vscode.lock': Lock acquired.
+[2022-06-01 10:31:24.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-06-01 10:31:24.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-01 10:31:25.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-01 10:31:25.030] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-01 10:31:25.067] [exthost] [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+[2022-06-01 10:31:26.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-01 10:31:26.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-01 10:31:27.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 10:31:27.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 10:31:27.639] [exthost] [info] Eager extensions activated
+[2022-06-01 10:31:29.465] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7878
+[2022-06-01 10:56:08.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-01 10:56:08.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-01 10:56:08.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-01 10:56:08.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-01 11:35:02.412] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:02.413] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:08.800] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:08.800] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:10.177] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:10.177] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:10.954] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:10.954] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:12.125] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:12.125] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:13.214] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:13.214] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:15.400] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:15.400] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:16.551] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:16.551] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:16.970] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:16.970] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:17.383] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:17.383] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:17.973] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:17.974] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-06-01 11:35:19.660] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-06-01 11:35:19.660] [exthost] [error] Error: <semantic> TypeScript Server Error (4.6.3)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:164851:23)
+    at ScriptInfo.getDefaultProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:165698:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168733:48)
+    at ProjectService.ensureDefaultProjectForFile (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:168728:75)
+    at IpcIOSession.Session.getFileAndProjectWorker (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173257:87)
+    at IpcIOSession.Session.getFileAndProject (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:173240:29)
+    at IpcIOSession.Session.getEncodedSemanticClassifications (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172828:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:172295:61)
+    at /home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:88
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174060:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174069:33)
+    at IpcIOSession.Session.onMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:174095:35)
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/node_modules/typescript/lib/tsserver.js:176730:31)
+    at process.emit (node:events:390:28)
+    at emit (node:internal/child_process:917:12)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:505262)
+	at dispatchResponse (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:499110)
+	at dispatchMessage (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497978)
+	at ChildProcess.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/extensions/typescript-language-features/dist/extension.js:1:497463)
+	at ChildProcess.emit (node:events:390:28)
+	at emit (node:internal/child_process:917:12)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)

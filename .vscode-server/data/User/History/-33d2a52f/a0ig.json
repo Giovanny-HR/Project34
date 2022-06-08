@@ -1,0 +1,13 @@
+{
+    "groep":{
+        "serverTest": {
+            "code": 200,
+            "message": "Test Ok"
+        },
+        "accountNotFound": {
+            "code": 404,
+            "message": ""
+        }
+
+    }
+}

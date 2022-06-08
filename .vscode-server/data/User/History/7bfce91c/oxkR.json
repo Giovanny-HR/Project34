@@ -1,0 +1,27 @@
+{
+    "balance":{        
+        "head":{
+            "fromCtry": "String",
+            "fromBank": "String",
+            "toCrty": "String",
+            "toBank": "String"
+        },
+        "body": {
+            "acctNo": "String",
+            "balance": "Integer"
+        }
+    },
+    "withdraw":{        
+        "head":{
+            "fromCtry": "String",
+            "fromBank": "String",
+            "toCrty": "String",
+            "toBank": "String"
+        },
+        "body": {
+            "acctNo": "String",
+            "pin": "String",
+            "amount": "Integer"
+        }
+    }
+}

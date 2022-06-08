@@ -1,0 +1,9 @@
+{
+    "groep":{
+        "serverTest": {
+            "code": 200,
+            "message": "Test Ok"
+        },
+        
+    }
+}

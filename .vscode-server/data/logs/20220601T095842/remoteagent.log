@@ -1,0 +1,26 @@
+[2022-06-01 09:58:42.322] [remoteagent] [info] Extension host agent started.
+[2022-06-01 09:58:42.752] [remoteagent] [info] [127.0.0.1][632d4375][ManagementConnection] New connection established.
+[2022-06-01 09:58:42.775] [remoteagent] [info] [127.0.0.1][610d7cf1][ExtensionHostConnection] New connection established.
+[2022-06-01 09:58:42.780] [remoteagent] [info] [127.0.0.1][610d7cf1][ExtensionHostConnection] <1569026> Launched Extension Host Process.
+[2022-06-01 09:59:51.295] [remoteagent] [info] [127.0.0.1][632d4375][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-06-01 09:59:51.340] [remoteagent] [info] [127.0.0.1][610d7cf1][ExtensionHostConnection] <1569026> Extension Host Process exited with code: 0, signal: null.
+[2022-06-01 09:59:51.341] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-06-01 10:00:07.321] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-06-01 10:00:07.322] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-06-01 10:00:08.856] [remoteagent] [info] [127.0.0.1][b219c14a][ManagementConnection] New connection established.
+[2022-06-01 10:00:09.133] [remoteagent] [info] [127.0.0.1][5d3c0c41][ExtensionHostConnection] New connection established.
+[2022-06-01 10:00:09.149] [remoteagent] [info] [127.0.0.1][5d3c0c41][ExtensionHostConnection] <1569227> Launched Extension Host Process.
+[2022-06-01 10:00:29.960] [remoteagent] [error] [File Watcher (node.js)] Failed to watch /home/ubuntu-1021941/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/ubuntu-1021941/.git/refs/remotes/origin/main')
+[2022-06-01 10:05:07.325] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-06-01 10:31:12.128] [remoteagent] [info] [127.0.0.1][b219c14a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-06-01 10:31:12.133] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu-1021941/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-06-01 10:31:20.471] [remoteagent] [info] [127.0.0.1][b219c14a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-06-01 10:31:20.474] [remoteagent] [info] [127.0.0.1][bdf8c5aa][ManagementConnection] New connection established.
+[2022-06-01 10:31:20.478] [remoteagent] [info] [127.0.0.1][637c3650][ExtensionHostConnection] New connection established.
+[2022-06-01 10:31:20.487] [remoteagent] [info] [127.0.0.1][637c3650][ExtensionHostConnection] <1570843> Launched Extension Host Process.
+[2022-06-01 10:31:21.816] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu-1021941)
+[2022-06-01 10:31:36.949] [remoteagent] [error] [File Watcher (node.js)] Failed to watch /home/ubuntu-1021941/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/ubuntu-1021941/.git/refs/remotes/origin/main')
+[2022-06-01 10:36:20.600] [remoteagent] [info] [127.0.0.1][b219c14a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-06-01 10:36:20.809] [remoteagent] [info] [127.0.0.1][5d3c0c41][ExtensionHostConnection] <1569227> Extension Host Process exited with code: 0, signal: null.
